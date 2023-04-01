@@ -1,0 +1,6 @@
+<div class="face-snap-card" [ngClass]="{snapped: this.snapped === true }">
+  <p>{{464644.25464 | number:'1.0-3'}}</p>
+  <h2>{{faceSnap.title |titlecase}}</h2>
+  <p>{{faceSnap.description}}</p>
+  <button (click)="onViewFaceSnap()" >VIEW</button>
+</div>
